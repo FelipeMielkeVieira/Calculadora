@@ -12,7 +12,7 @@ export class CalculadoraComponent implements OnInit {
   ngOnInit() {
   }
 
-  ultimaResposta = '';
+  ultimaResposta = '0';
 
   controle = '';
 
