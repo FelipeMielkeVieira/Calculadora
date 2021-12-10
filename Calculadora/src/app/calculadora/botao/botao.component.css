@@ -1,0 +1,11 @@
+.botao {
+    padding: 10px;
+    border: 1px black solid;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.botao:hover {
+    cursor: pointer;
+    background-color: blanchedalmond;
+}

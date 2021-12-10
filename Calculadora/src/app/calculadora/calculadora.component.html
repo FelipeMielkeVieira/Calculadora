@@ -1,0 +1,41 @@
+<div class='tela'>
+    <div class='divCalculadora'>
+        <app-linha>
+            <app-visor [valorVisor]='controle'></app-visor>
+        </app-linha>
+        <app-linha>
+            <app-botao [valorBotao] = "'1'" (clickBotao)="funcaoCalculadora($event)"></app-botao>
+            <app-botao [valorBotao] = "'2'" (clickBotao)="funcaoCalculadora($event)"></app-botao>
+            <app-botao [valorBotao] = "'3'" (clickBotao)="funcaoCalculadora($event)"></app-botao>
+            <app-botao [valorBotao] = "'+'" (clickBotao)="funcaoCalculadora($event)"></app-botao>
+        </app-linha>
+        <app-linha>
+            <app-botao [valorBotao] = "'4'" (clickBotao)="funcaoCalculadora($event)"></app-botao>
+            <app-botao [valorBotao] = "'5'" (clickBotao)="funcaoCalculadora($event)"></app-botao>
+            <app-botao [valorBotao] = "'6'" (clickBotao)="funcaoCalculadora($event)"></app-botao>
+            <app-botao [valorBotao] = "'-'" (clickBotao)="funcaoCalculadora($event)"></app-botao>
+        </app-linha>
+        <app-linha>
+            <app-botao [valorBotao] = "'7'" (clickBotao)="funcaoCalculadora($event)"></app-botao>
+            <app-botao [valorBotao] = "'8'" (clickBotao)="funcaoCalculadora($event)"></app-botao>
+            <app-botao [valorBotao] = "'9'" (clickBotao)="funcaoCalculadora($event)"></app-botao>
+            <app-botao [valorBotao] = "'*'" (clickBotao)="funcaoCalculadora($event)"></app-botao>
+        </app-linha>
+        <app-linha>
+            <app-botao [valorBotao] = "'0'" (clickBotao)="funcaoCalculadora($event)"></app-botao>
+            <app-botao [valorBotao] = "'/'" (clickBotao)="funcaoCalculadora($event)"></app-botao>
+            <app-botao [valorBotao] = "'.'" (clickBotao)="funcaoCalculadora($event)"></app-botao>
+            <app-botao [valorBotao] = "'%'" (clickBotao)="funcaoCalculadora($event)"></app-botao>
+        </app-linha>
+        <app-linha>
+            <app-botao [valorBotao] = "'('" (clickBotao)="funcaoCalculadora($event)"></app-botao>
+            <app-botao [valorBotao] = "')'" (clickBotao)="funcaoCalculadora($event)"></app-botao>
+            <app-botao [valorBotao] = "'='" (clickBotao)="funcaoCalculadora($event)"></app-botao>
+        </app-linha>
+        <app-linha>
+            <app-botao [valorBotao] = "'AC'" (clickBotao)="funcaoCalculadora($event)"></app-botao>
+            <app-botao [valorBotao] = "'DEL'" (clickBotao)="funcaoCalculadora($event)"></app-botao>
+            <app-botao [valorBotao] = "'Ans'" (clickBotao)="funcaoCalculadora($event)"></app-botao>
+        </app-linha>
+    </div>
+</div>
