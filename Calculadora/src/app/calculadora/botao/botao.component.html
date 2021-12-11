@@ -1,9 +1,9 @@
-<div *ngIf='valorBotao != "="'>
+<div *ngIf='valorBotao != "=" && valorBotao != "EXP"'>
   <div class='botao' (click)='clicouBotao(valorBotao)'>
     {{valorBotao}}
   </div>
 </div>
-<div *ngIf='valorBotao == "="'>
+<div *ngIf='valorBotao == "=" || valorBotao == "EXP"'>
   <div style='padding: 10px 30px;' class='botao' (click)='clicouBotao(valorBotao)'>
     {{valorBotao}}
   </div>

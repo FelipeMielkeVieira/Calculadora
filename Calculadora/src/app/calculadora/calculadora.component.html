@@ -22,10 +22,15 @@
             <app-botao [valorBotao] = "'*'" (clickBotao)="funcaoCalculadora($event)"></app-botao>
         </app-linha>
         <app-linha>
+            <app-botao [valorBotao] = "'.'" (clickBotao)="funcaoCalculadora($event)"></app-botao>
             <app-botao [valorBotao] = "'0'" (clickBotao)="funcaoCalculadora($event)"></app-botao>
             <app-botao [valorBotao] = "'/'" (clickBotao)="funcaoCalculadora($event)"></app-botao>
-            <app-botao [valorBotao] = "'.'" (clickBotao)="funcaoCalculadora($event)"></app-botao>
             <app-botao [valorBotao] = "'%'" (clickBotao)="funcaoCalculadora($event)"></app-botao>
+        </app-linha>
+        <app-linha>
+            <app-botao [valorBotao] = "'^'" (clickBotao)="funcaoCalculadora($event)"></app-botao>
+            <app-botao [valorBotao] = "'√'" (clickBotao)="funcaoCalculadora($event)"></app-botao>
+            <app-botao [valorBotao] = "'EXP'" (clickBotao)="funcaoCalculadora($event)"></app-botao>
         </app-linha>
         <app-linha>
             <app-botao [valorBotao] = "'('" (clickBotao)="funcaoCalculadora($event)"></app-botao>
